@@ -9,10 +9,10 @@ The constructor does not build the tree node by node but creates a canonical rep
 
 Example for D = 4 and N = 20
 
-``LevelsN 3 NodesN 20 BranchingMin 2 BranchingMax 3\
-StartMin 1 GroupsMin 1 StartMax 3 GroupsMax 0\
-StartMin 3 GroupsMin 1 StartMax 5 GroupsMax 1\
-StartMin 8 GroupsMin 3 StartMax 14 GroupsMax 2``
+``|LevelsN 3 NodesN 20 BranchingMin 2 BranchingMax 3
+|StartMin 1 GroupsMin 1 StartMax 3 GroupsMax 0
+|StartMin 3 GroupsMin 1 StartMax 5 GroupsMax 1
+|StartMin 8 GroupsMin 3 StartMax 14 GroupsMax 2``
 
 That is the canonical form of the below tree:
 
