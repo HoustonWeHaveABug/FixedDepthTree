@@ -7,7 +7,7 @@ The parent nodes have either \<BranchingMin\> children or \<BranchingMax\> child
 
 The constructor does not build the tree node by node but creates a canonical representation of the tree, level by level. This allows to create trees with a huge number of nodes as the runtime complexity is O(D).
 
-Example for D = 4 and N = 20
+Example for D = 4 and N = 20:
 ```
 LevelsN 3 NodesN 20 BranchingMin 2 BranchingMax 3
 StartMin 1 GroupsMin 1 StartMax 3 GroupsMax 0
