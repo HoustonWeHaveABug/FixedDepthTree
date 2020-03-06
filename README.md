@@ -1,7 +1,7 @@
 # FixedDepthTree
 Create and browse a tree of given depth and number of nodes.
  
-The FixedDepthTree class allows to build a balanced tree given two arguments: depth (D) and number of nodes (N>.
+The FixedDepthTree class allows to build a balanced tree given two arguments: depth (D) and number of nodes (N).
 
 The parent nodes have either \<BranchingMin\> children or \<BranchingMax\> children, with \<BranchingMax\> - \<BranchingMin\> = 1. The leaf nodes are all created at the lowest level of the tree.
 
@@ -14,6 +14,10 @@ StartMin 1 GroupsMin 1 StartMax 3 GroupsMax 0
 StartMin 3 GroupsMin 1 StartMax 5 GroupsMax 1
 StartMin 8 GroupsMin 3 StartMax 14 GroupsMax 2
 ```
+The first line provides the global settings of the tree, \<LevelsN\> being the number of child levels (= D-1).
+
+The following \<LevelsN\> lines provide the settings of each child level.
+
 That is the canonical form of the below tree:
 ```
         ---- 0 ----
